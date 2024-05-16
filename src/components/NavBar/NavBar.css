@@ -28,7 +28,7 @@
     font-weight: 500;
 }
 
-@media(max-width:800px){
+@media screen and (max-width:800px){
     .navbar{
         padding: 15px 30px;
     }
@@ -47,5 +47,21 @@
     }
     .nav-logo p{
         font-size: 16px;
+    }
+}
+@media screen and (max-width:420px){
+    .navbar{
+        padding: 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .nav-logo{
+        width: 100px;
+    }
+    .nav-logo img{
+        width: 50px;
+    }
+    .nav-logo p{
+        font-size: 14px;
     }
 }

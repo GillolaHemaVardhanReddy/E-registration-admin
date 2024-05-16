@@ -54,13 +54,13 @@
     margin: 10px 0px;
     cursor: pointer;
 }
-@media(max-width:1080px){
+@media screen and (max-width:1080px){
     .add-user{
         margin: 0;
         border-radius: 0;
     }
 }
-@media(max-width:800px){
+@media screen and (max-width:800px){
     .add-user{
         width: auto;
         padding: 30px;
