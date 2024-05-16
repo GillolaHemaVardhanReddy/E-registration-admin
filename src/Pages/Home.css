@@ -32,5 +32,12 @@
 @media all and (max-width:480px){
     .home{
         flex-direction: column;
+
+    }
+    .none-selected p{
+        font-size: 20px;
+    }
+    .none-selected{
+        height: 78vh;
     }
 }
