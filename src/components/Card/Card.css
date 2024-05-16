@@ -3,6 +3,10 @@
     box-shadow: rgb(0,0,0,0.05) -10px -10px 13px, rgba(0,0,0,0.08) 10px 10px 10px;
     padding-bottom:20px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
 }
 .description p{
     font-size: 12px;
