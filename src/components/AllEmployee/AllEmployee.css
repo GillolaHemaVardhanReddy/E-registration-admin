@@ -56,12 +56,12 @@ div.y-container{
     margin-top: 30px;
     height: 70%;
 }
-@media screen and (max-width:1080px){
+@media all and (max-width:1080px){
     .employe-list{
         max-width: 600px;
     }
 }
-@media screen and (max-width:680px){
+@media all and (max-width:680px){
     .employe-list{
         max-width: 500px;
     }
@@ -69,7 +69,7 @@ div.y-container{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width:570px){
+@media all and (max-width:570px){
     .employe-list{
         max-width: 400px;
     }
@@ -80,7 +80,7 @@ div.y-container{
         flex-direction: column;
     }
 }
-@media screen and (max-width:400px){
+@media all and (max-width:480px){
     .employe-list{
         max-width: 300px;
         padding: 0;
