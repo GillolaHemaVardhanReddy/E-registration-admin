@@ -9,11 +9,11 @@ const AllEmployee = () => {
   const [searchdata,setsearchData] = useState("");
   const fetchInfo = async ()=>{
     //const resp = await axios("https://e-registration-server.onrender.com/allemployee");
-    const resp = await axios("https://e-registration-server.onrender.com/allemployee");
+    const resp = await axios("https://e-registration-server-l25d.onrender.com/allemployee");
     setFullList(resp.data);
   }
   const fetchSearchData = async ()=>{
-    const resp = await axios.post("https://e-registration-server.onrender.com/searchemployee",{searchdata},{'Content-Type': 'application/json'});
+    const resp = await axios.post("https://e-registration-server-l25d.onrender.com/searchemployee",{searchdata},{'Content-Type': 'application/json'});
     resp.data.length>0?setFullList(resp.data):alert("No employee matched");
   }
   useEffect(()=>{
@@ -24,7 +24,7 @@ const AllEmployee = () => {
     setsearchData(e.target.value);
   }
   const remove = async (e)=>{
-    const resp = await axios.post("https://e-registration-server.onrender.com/removeemployee",{
+    const resp = await axios.post("https://e-registration-server-l25d.onrender.com/removeemployee",{
       id: e,
       name: e.name
     },{
