@@ -45,7 +45,7 @@ const AddUser = () => {
 
     let employee = employeeDetails;
     employee.image = imgUrl;
-    const resp = await axios.post("https://e-registration-server.onrender.com/addemployee",employee,{
+    const resp = await axios.post("https://e-registration-server-l25d.onrender.com/addemployee",employee,{
       Accept: 'application/json',
       'content-type': 'application/json'
     });
